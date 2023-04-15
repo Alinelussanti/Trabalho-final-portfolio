@@ -17,11 +17,11 @@ li{
     display: flex;
     position: fixed;
     width: 100%;
-    height: 60px;
     padding: 8px;
     padding-top: 32px;
     padding-bottom: 32px;
-    background-color:#ffa4a4
+    height: 60px;
+    background-color:#1bafaf
 }
 
 .header-menu nav{
@@ -32,13 +32,13 @@ li{
 
 .lista-menu{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 50%;
     align-items:center;
 }
 
 .lista-menu li>a{
-    color:blue;
+    color:#f1da07;
     font-size: 18px;
     text-decoration: inherit;
 }
@@ -53,11 +53,17 @@ li{
 .container{
     margin-right: auto;
     margin-left: auto;
-    margin-top: 75px;
+    margin-top: 200px;
     max-width: 960px;
     padding-right: 10px;
     padding-left: 10px;
     width: 100%;
+}
+
+.section-lista {
+    display: flex;
+    margin-bottom: 200px;
+    flex-direction: column;
 }
 
 .subcontainer-principal{
@@ -67,6 +73,7 @@ li{
     align-items: center;
     text-align: center;
 }
+
 
 
 .nome-completo{
@@ -86,11 +93,11 @@ li{
     line-height: 32px;
 }
 
+//*--Posso excluir? */
 .article-lista{
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 
 .topico-principal{
@@ -100,6 +107,7 @@ li{
 
 .lista-item{
     padding: 32px;
+    
 }
 
 .lista-item ul li {
@@ -115,7 +123,7 @@ li{
 
 .lista-local{
     font-size: 18px;
-    color:#ffa4a4;
+    color:crimson ;
 }
 
 .lista-descricao{
@@ -127,36 +135,50 @@ li{
 }
 
 
-.lista-menu2{
+.formacao {
+    background-color: #fff;
     display: flex;
-    justify-content: space-between;
-    width: 50%;
-    align-items:center;
+    flex-direction: column;
 }
 
-.lista-menu2 li>a{
-    color:blue;
-    font-size: 18px;
-    text-decoration: inherit;
+.pojetos {
+    background-color: #3e6e2f;
+    display: flex;
+    flex-direction: column;
 }
 
+//*--> no git da amanda está omo .container-footer e . footer, qual a diferença?*/
 .rodape{
-    background-color: #d1cdfc;
+    background-color: #ce0e0e;
     height: 300px;
     display: flex;
     align-items: center;
   }
   
-  .lista-rodape li{
+.lista-rodape li{
     color:blue;
     font-weight: 700;
     font-size: 18px;
     margin-bottom: 16px;
     display: flex;
     align-items: center;
-  }
+}
   
-  .estilo-icone{
+.estilo-icone{
    font-size: 32px;
    margin-right: 10px;
-  }
+}
+
+.links {
+    text-decoration:none;
+    color: blue;
+}
+
+.lista-rodape li {
+    color:deeppink;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}

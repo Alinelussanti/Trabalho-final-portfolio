@@ -3,8 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu portfólio</title>
+    <title>Portfólio Aline Lussanti</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./img/Avatar.png"> <!--para colocar o ícone na aba do navegador-->
     <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
@@ -23,88 +24,97 @@
     </header>
 
     <main>
-    <section class="principal">
-        <article class="subcontainer-principal container">
-        <div>
-            <img src="img/Avatar.png">
+      <section class="principal">
+        <div class="subcontainer-principal container">
+            <div>
+                 <img src="img/Avatar.png">
+            </div>
+            <div>
+                <h1 class="nome-completo">Aline Lussanti</h1>
+                <h2 class="profissao">Atriz/Professora de Dança</h2>
+            </div>
+            <div class="texto-sobre">
+              Atriz graduada em Teatro pela UFMG, professora de Danças de salão, e agora estudante de tecnologia. Teve seu primeiro contato com a programação através do projeto Pretalab.
+            </div>
         </div>
-        <div>
-            <h1 class="nome-completo">Aline Lussanti</h1>
-            <h2 class="profissao">Estudante de tecnologia</h2>
-        </div>
-        <div class="texto-sobre">
-            <p>
-              Graduada em Teatro pela UFMG, tem experiência com montagem de espetáculos de Artes Cênicas <br>
-              e em montagens de coreografias de Dança. <br>
-              Ministra aulas de dança de salão desde 2012.  Atuou como locutora de programa de rádio para infância <br>
-              junto ao Serelepe. <br>
-              Já ministrou oficinas de teatro para crianças de 5 a 10 anos.
-            </p>
-        </div>
-      </article>
     </section>
 
     <!-- O ID é a forma de conectar a barra de navegação a esse trecho do código (???)-->
-    <section id="formacao">
-      <article class="container article-lista">
-        <div>
-          <h3 class="topico-principal">Formação</h3>
-    </div>
+    <section id="formacao" class="formacao">
+        <div class="container section-lista">
+          <div>
+              <h3 class="topico-principal">Formação</h3>
+          </div>
+          <div class="lista-item">
+              <ul>
+                  <li>
+                      <p class="lista-titulo">Ciclo formativo</p>
+                      <a href="https://www.pretalab.com/formacao" target="_blank" class="lista-local">Pretalab</a>
+                      <p class="lista-descricao">
+                        O ciclo formativo em tecnologia da PretaLab possui uma metodologia autoral que
+                        engloba o desenvolvimento do conhecimento técnico, autogestão e soft skills das estudantes. O objetivo é desenvolver a técnica, mas também as habilidades que nem sempre são ensinadas em cursos tradicionais e que auxiliam na autonomia de aprender novos conteúdos.
 
-
-    <div class="lista-item">
-        <ul>
-            <li>
-                <p class="lista-titulo">Ciclo formativo</p>
-                <a href="https://www.pretalab.com/formacao" target="_blank" class="lista-local">Pretalab</a>
-                <p class="lista-descricao">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit   
-                </p>
-            </li>
-
-
-            <li>
-                <p>Contato</p>
-                <a href="www.gmail.com"></a>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit
-                </p>
-            </li>
-        </ul>
-    </div>
-  </article>
+                      </p>
+                  </li>
+              </ul>
+          </div>
     </section>
 
-      <section>
-        <article>
-             <div>
-                <h3>Reportagem</h3>
-              </div>
-              <div>
-                <ul class="lista-menu2">
-                  <li><a href="#Experiencia">Experiencia</a></li>
-                    <p>Aula de samba para Alex Morgan</p>
-                    <p>Globo Esporte</p>
-                    <a href="https://globoesporte.globo.com/mg/olimpiadas/noticia/2016/08/samba-morgan-americanas-caem-na-danca-com-aula-em-belo-horizonte.html" target="_blank"> Ensinando samba no pe para jogadoras dos EUA</a>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nibh in sem tempor lacinia. Integer magna ante, vulputate sit</p>
+    <section id="portfolio" class="projetos">
+        <div class="container section-lista">
+            <div>
+                <h3 class="topico-principal">Meus projetos</h3>
+            </div>
+            <div class="lista-item">
+                <ul>
+                  <li>
+                    <p class="lista-titulo">Calculadora em javascript</p>
+                    <a href="https://github.com/Alinelussanti/ProjetoFinal_PretaLab-Disney-LP/blob/main/js/calculadora.js" target="_blank" class="lista-local">Link para o projeto </a>
+                    <p class="lista-descricao">
+                     Projeto desenvolvido durante o Ciclo Formativo Básico, da Pretalab com a finalidade de aprimorar os 
+                     conhecimentos em ferramentas de desenvolvimento Web - HTML e CSS.
+                    </p>
+                  <li>
+                  <li>          
+                      <p class="lista-titulo">Projeto pessoal em React</p>
+                      <a href="https://github.com/Alinelussanti/ProjetoFinal_PretaLab-Disney-LP/blob/main/js/media.js" target="_blank" class="lista-local">Link para o projeto</a>
+                      <p class="lista-descricao">
+                       Projeto desenvolvido durante o Ciclo Formativo Básico, da Pretalab com a finalidade de aprimorar 
+                       os conhecimentos em ferramentas de desenvolvimento Web - HTML e CSS.
+                      </p>
+                  </li>
+                  <li>
+                      <p class="lista-titulo">Trabalhos artísticos</p>
+                      <p class="lista-descricao">Aula de samba para Alex Morgan</p>
+                      <a href="https://globoesporte.globo.com/mg/olimpiadas/noticia/2016/08/samba-morgan-americanas-caem-na-danca-com-aula-em-belo-horizonte.html" target="_blank" class="lista-local">Link da matéria</a>
+                      <p class="lista-descricao">
+                       Projeto que fui convidada para ministrar um workshop de samba no pé para as jogadoras de futebol da seleção feminina do EUA</p>
+                      <p class="lista-descricao">Atuou no curta metragem “Posologia” de Fábio Nascimento<br>21
+                        Participou de oficina de atuação e cinema com Renan Rovida no 
+                        festival de cinema de Tiradentes
+                        2022
+                        Ministrou oficina de teatro do oprimido no 12° encontro esportivo do 
+                        IFMG Campus Ouro Preto
+                        </p>
                   </li>
                 </ul>
               </div>
-            </article>
-          </section>
-        </main>
+        </div>
+      </section>
+    </main>
 
-        <footer class="rodape">
+        <footer id="contato" class="rodape">
+
             <div class="container">
-              <ul id="contato" class="lista-rodape">
-                <li><i class="fas fa-envelope-square estilo-icone"></i>alinelusantos@gmail.com</li>
-                <li href=""><i class="fab fa-linkedin estilo-icone"></i>aline-lussanti</li>
-                <li href=""><i class="fab fa-github-square estilo-icone"></i>alinelussanti</li>
+              <ul  class="lista-rodape">
+                <li><i class="fas fa-envelope-square estilo-icone"></i><a href="mailto:alinelusantos@gmail.com" target="_blank" class="links">alinelusantos@gmail.com</a>
+                </li>
+                <li ><i class="fab fa-linkedin estilo-icone"></i><a href="https://www.linkedin.com/in/aline-lussanti-70b06622a/" target="_blank" class="links">aline-lussanti</a>
+                </li>
+                <li><i class="fab fa-github-square estilo-icone"></i><a href="https://github.com/Alinelussanti" target="_blank" class="links">alinelussanti</a>
+                </li>
               </ul>
             </div>
-          </footer>
-      
-      
-      </body>
-      
-      </html>
+        </footer>     
+</body>      
+</html>
